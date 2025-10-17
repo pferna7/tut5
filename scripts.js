@@ -73,9 +73,9 @@ function takeCell(event)
 
     // Check if the game is over
     if (isGameOver())
-        document.getElementById('game-over-lbl').innerHTML = "<h1>Game Over</h1>";  // find the game over label and change the text to Game Over
     {
         // let the label with the id 'game-over-lbl' display the words 'Game Over' inside <h1> element
+        document.getElementById('game-over-lbl').innerHTML = "<h1>Game Over</h1>";  // find the game over label and change the text to Game Over
     }
 
     // I'll leave declaring the winner for your intrinsic motivation, it's not required for this assignment 
